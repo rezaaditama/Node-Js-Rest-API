@@ -1,0 +1,22 @@
+{
+  "name": "node-js-rest-api",
+  "version": "1.0.0",
+  "description": "Restful API example using Node.JS, Express and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts", 
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "author": "Reza Aditama",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

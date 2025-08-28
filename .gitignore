@@ -1,0 +1,35 @@
+#Dependecies
+/node_modules
+
+#Testing
+/coverage
+/.nyc_output
+
+#production
+/build
+/dist
+
+#misc
+DS_Store
+.package-lock.json
+Thumbs.db
+
+#typescript cache
+*.tsbuildinfo
+
+#environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+#logs
+npm-debug.log
+*.log
+logs/
+
+#IDE / editor
+.vscode/
+.idea/
+*.swp
