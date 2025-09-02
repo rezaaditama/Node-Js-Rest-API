@@ -32,6 +32,7 @@ export default defineConfig([
       //Typescript
       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
       '@typescript-eslint/explicit-function-return-type': 'off',
+      '@typescript-eslint/restrict-template-expressions': 'off',
     },
   },
 ]);
