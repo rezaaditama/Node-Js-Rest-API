@@ -1,10 +1,10 @@
 import express, { Application, Request, Response } from 'express';
 
 const app: Application = express();
-const port: Number = 4000;
+const port = 4000;
 
 app.use('/health', (req: Request, res: Response) => {
-  res.status(400).send({ status: 200 });
+  res.status(200).send({ status: 200 });
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
