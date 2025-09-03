@@ -7,3 +7,8 @@ ProductRouter.get('/', (req: Request, res: Response) => {
   logger.info('success get product data');
   res.status(200).send({ status: true, statusCode: 200, data: [{ name: 'baju', price: 200000 }] });
 });
+
+ProductRouter.post('/', (req: Request, res: Response) => {
+  logger.info('Success Add Product...');
+  res.status(201).send({ status: true, statusCode: 201, data: req.body });
+});
